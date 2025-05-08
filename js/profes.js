@@ -497,7 +497,7 @@ async function datos(criterio) {
     }
 }
 
-datos("Pagueguy Fenner, Sebastián").catch((error) => console.error(error));
+datos("Sebastián Pagueguy Fenner").catch((error) => console.error(error));
 
 document.querySelectorAll("select")[0].addEventListener("change", (event) => {
     tabla.innerHTML = " ";
